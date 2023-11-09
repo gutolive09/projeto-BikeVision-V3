@@ -2,17 +2,15 @@
     width: 30%;
 }
 
-.lista {
+.menu ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
-    & a {
-        text-decoration: none;
-    }
 }
 
-
+.menu ul a {
+    text-decoration: none;
+}
 
 .item {
     font-size: 35px;
@@ -21,7 +19,7 @@
 
 
 @media(max-width: 1100px){
-    nav{
+    .menu{
         width: 100%;
         margin-top: 20px;
     }
