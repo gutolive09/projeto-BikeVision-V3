@@ -1,0 +1,49 @@
+.beneficios{
+    margin: 50px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+
+    position: relative;
+}
+
+.beneficios h2{
+    margin: auto;
+    width: 190px;
+    margin-bottom: 50px;
+    padding: 5px 15px;
+    text-align: center;
+
+    background-color: #161616;
+    color: #50b484;
+
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.beneficios-container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+
+    border: 10px solid #161616;
+}
+
+.beneficios-card {
+    width: 25%;
+    padding: 30px 10px;
+
+    text-align: center;
+}
+
+@media(max-width: 850px){
+    .beneficios-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .beneficios-card{
+        width: 90%;
+    }
+}

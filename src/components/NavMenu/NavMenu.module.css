@@ -1,0 +1,37 @@
+.menu{
+    width: 30%;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    & a {
+        text-decoration: none;
+    }
+}
+
+
+
+.item {
+    font-size: 35px;
+    color: #50b484;
+}
+
+
+@media(max-width: 1100px){
+    nav{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .item {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 450px){
+    .item {
+        font-size: 25px;
+    }
+}

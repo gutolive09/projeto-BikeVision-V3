@@ -1,0 +1,31 @@
+.vistoria-confirm {
+    height: 60vh;
+}
+
+.vistoria-inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    margin-top: 100px;
+}
+
+.vistoria-btn-cadastro {
+    display: flex;
+    gap: 50px;
+}
+
+@media(max-width: 850px){
+    .vistoria-confirm{
+        margin-top: 100px;
+    }
+}
+
+@media(max-width: 450px){
+    .vistoria-inicio{
+        margin: 100px 30px;
+        text-align: center;
+    }
+}
