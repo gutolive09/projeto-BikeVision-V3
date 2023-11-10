@@ -11,9 +11,9 @@ export default function Home() {
     
       <main>
         <Banner />
-        <section className="desc">
+        <section className={style.desc}>
           <h2>A solução para o seu negocio de seguros</h2>
-          <BsBicycle className="bike" />
+          <BsBicycle className={style.bike} />
           <hr />
           <p>
             Atualmente é necessario a presença de uma pessoa para realizar o
@@ -27,18 +27,18 @@ export default function Home() {
           </p>
         </section>
         <Beneficios />
-        <section className="teste">
+        <section className={style.teste}>
           <h3>Faça a sua vistoria!</h3>
           <Link href={"/vistoria"}>
-            <button>Vistoria</button>
+            <button className={style.btn}>Vistoria</button>
           </Link>
         </section>
-        <section className="contato">
-          <AiOutlineMail className="mail" />
-          <div className="contato-texto">
+        <section className={style.contato}>
+          <AiOutlineMail className={style.mail} />
+          <div className={style.contatoTexto}>
             <h2>Ficou interessado ?</h2>
             <p>Entre em contato conosco !</p>
-            <button>Contato</button>
+            <button className={style.btn}>Contato</button>
           </div>
         </section>
       </main>

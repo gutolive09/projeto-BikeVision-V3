@@ -1,0 +1,108 @@
+.desc{
+    margin: 30px 50px;
+    position: relative;
+}
+.desc hr{
+    opacity: 1;
+    border: 5px solid #000;
+    border-radius: 5px;
+}
+
+.desc .bike {
+    position: absolute;
+    right: 50px;
+    top: 4px;
+
+    font-size: 80px;
+    color: #000;
+}
+
+.desc h2{
+    margin: 20px 0px;
+    font-size: 40px;
+}
+
+.desc p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.teste {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    margin-bottom: 50px;
+}
+
+.teste h3 {
+    font-size: 50px;
+}
+
+.contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.mail {
+    font-size: 300px;
+}
+
+.contatoTexto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato-texto p {
+    font-size: 20px;
+}
+
+.btn {
+    color: #000;
+    background-color: #50b484;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 25px;
+    border: none;
+
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+@media(max-width: 960px){
+    .desc h2{
+        margin-bottom: 50px;
+    }
+
+    .desc .bike{
+        top: 35px;
+    }
+}
+
+@media(max-width: 835px){
+    .desc .bike{
+        top: 85px;
+    }
+}
+
+@media(max-width: 470px){
+    .desc .bike{
+        top: 130px;
+    }
+
+    .teste{
+        text-align: center;
+        margin: 10px;
+    }
+
+    .contato-texto{
+        text-align: center;
+    }
+}

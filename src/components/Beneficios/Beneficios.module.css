@@ -22,7 +22,7 @@
     transform: translate(-50%, -50%);
 }
 
-.beneficios-container {
+.beneficiosContainer {
     display: flex;
     justify-content: space-around;
     padding-top: 50px;
@@ -30,7 +30,7 @@
     border: 10px solid #161616;
 }
 
-.beneficios-card {
+.beneficiosCard {
     width: 25%;
     padding: 30px 10px;
 
@@ -38,12 +38,12 @@
 }
 
 @media(max-width: 850px){
-    .beneficios-container{
+    .beneficiosContainer{
         flex-direction: column;
         align-items: center;
     }
 
-    .beneficios-card{
+    .beneficiosCard{
         width: 90%;
     }
 }
