@@ -1,5 +1,5 @@
 import Carousel from "../Carousel";
-import "./Banner.css"
+import "./Banner.module.css"
 
 export default function Banner() {
   return (

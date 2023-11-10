@@ -1,8 +1,6 @@
+"use client"
 import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
-import bikeImg2 from "../../assets/bike_banner_2.jpg";
-import bikeImg3 from "../../assets/bike_banner_3.jpg";
-import "./Carousel.css";
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
@@ -14,7 +12,7 @@ function ControlledCarousel() {
   return (
     <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
-        <img src={bikeImg2} alt="" />
+        <img src="/img/bike_banner_2.jpg" alt="" />
         <Carousel.Caption>
           <h3>Eficiência</h3>
           <p>
@@ -23,7 +21,7 @@ function ControlledCarousel() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img src={bikeImg3} alt="" />
+        <img src="/img/bike_banner_2.jpg" alt="" />
         <Carousel.Caption>
           <h3>Rápido e Prático</h3>
           <p>

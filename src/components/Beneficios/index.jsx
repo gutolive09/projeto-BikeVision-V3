@@ -1,4 +1,4 @@
-import "./Beneficios.css";
+import "./Beneficios.module.css";
 
 export default function Beneficios() {
   return (
