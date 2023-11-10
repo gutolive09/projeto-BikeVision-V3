@@ -4,11 +4,11 @@ import Beneficios from "../components/Beneficios";
 import Banner from "../components/Banner";
 import { BsBicycle } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <>
+    
       <main>
         <Banner />
         <section className="desc">
@@ -29,7 +29,7 @@ export default function Home() {
         <Beneficios />
         <section className="teste">
           <h3>Faça a sua vistoria!</h3>
-          <Link to={"/vistoria"}>
+          <Link href={"/vistoria"}>
             <button>Vistoria</button>
           </Link>
         </section>
@@ -42,6 +42,6 @@ export default function Home() {
           </div>
         </section>
       </main>
-    </>
+
   );
 }

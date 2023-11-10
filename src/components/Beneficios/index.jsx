@@ -2,7 +2,7 @@ import "./Beneficios.module.css";
 
 export default function Beneficios() {
   return (
-    <>
+    
       <section>
         <div className="beneficios">
           <h2>Benefícios</h2>
@@ -30,6 +30,6 @@ export default function Beneficios() {
           </div>
         </div>
       </section>
-    </>
+
   );
 }
