@@ -7,15 +7,15 @@ import {
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 import { faCopyright } from "@fortawesome/free-regular-svg-icons";
-import "./Footer.module.css";
+import style from "./Footer.module.css";
 
 export default function Footer() {
   return (
-    <>
-      <footer className="footer"> 
-        <div className="links">
+    
+      <footer className={style.footer}> 
+        <div className={style.links}>
           <NavMenu direction={"column"} fontSize={20} />
-          <div className="links-img">
+          <div className={style.linksImg}>
             <ul>
               <li>
                 <a href="">
@@ -35,10 +35,9 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="copyright">
+        <div className={style.copyright}>
           <small>Direitos reservados - <FontAwesomeIcon icon={faCopyright} /> BikeVision 2023</small>
         </div>
       </footer>
-    </>
   );
 }

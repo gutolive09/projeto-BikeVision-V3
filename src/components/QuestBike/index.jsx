@@ -1,19 +1,19 @@
 import React from "react";
-import "./QuestBike.css"
+import style from "./QuestBike.css"
 
 export default function QuestBike(props) {
   return (
-    <>
-      <section className="vistoria-confirm">
+    
+      <section className={style.vistoriaConfirm}>
         <h1>Vamos iniciar a vistoria !</h1>
-        <div className="vistoria-inicio">
+        <div className={style.vistoriaInicio}>
           <h2>Você ja tem uma bicicleta cadastrada ?</h2>
-          <div className="vistoria-btn-cadastro">
+          <div className={style.vistoriaBtnCadastro}>
             <button onClick={() => props.setCadastro(true)}>Sim</button>
             <button onClick={() => props.setCadastro(false)}>Não</button>
           </div>
         </div>
       </section>
-    </>
+
   );
 }

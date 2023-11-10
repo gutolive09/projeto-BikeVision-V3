@@ -16,12 +16,12 @@
     justify-content: flex-end;
 }
 
-.links-img ul {
+.linksImg ul {
     display: flex;
     gap: 30px;
 }
 
-.links-img a {
+.linksImg a {
     color: #000000;
     padding: 5px 10px;
     background-color: #fff;
@@ -35,6 +35,10 @@
     align-items: flex-end;
 
     color: #50b484;
+}
+
+.copyright svg{
+    width: 15px;
 }
 
 @media(max-width: 520px){
