@@ -1,10 +1,9 @@
 import React from 'react'
-import "./CadastroBike.css"
+import style from "./CadastroBike.module.css"
 
 export default function CadastroBike(props) {
   return (
-    <>
-        <form className='form-cadastro'>
+        <form className={style.formCadastro}>
             <fieldset>
                 <legend>Insira os dados da bicicleta</legend>
                 <div>
@@ -26,6 +25,5 @@ export default function CadastroBike(props) {
                 <button onClick={() => props.setCadastro(true)}>Cadastrar</button>
             </fieldset>
         </form>
-    </>
   )
 }

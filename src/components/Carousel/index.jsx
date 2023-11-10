@@ -21,7 +21,7 @@ function ControlledCarousel() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img src="/img/bike_banner_2.jpg" alt="" />
+        <img src="/img/bike_banner_3.jpg" alt="" />
         <Carousel.Caption>
           <h3>Rápido e Prático</h3>
           <p>
