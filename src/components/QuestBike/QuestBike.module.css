@@ -1,0 +1,44 @@
+.vistoriaConfirm {
+    height: 60vh;
+}
+
+.vistoriaInicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    margin-top: 100px;
+}
+
+.btn {
+    color: #000;
+    background-color: #50b484;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 25px;
+    border: none;
+
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+.vistoriaBtnCadastro {
+    display: flex;
+    gap: 50px;
+}
+
+@media(max-width: 850px){
+    .vistoriaConfirm{
+        margin-top: 100px;
+    }
+}
+
+@media(max-width: 450px){
+    .vistoriaInicio{
+        margin: 100px 30px;
+        text-align: center;
+    }
+}

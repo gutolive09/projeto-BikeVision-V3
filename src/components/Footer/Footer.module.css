@@ -1,0 +1,50 @@
+.footer {
+    width: 100%;
+    padding: 10px 50px;
+    background-color: #161616;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links div {
+    width: 50%;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.linksImg ul {
+    display: flex;
+    gap: 30px;
+}
+
+.linksImg a {
+    color: #000000;
+    padding: 5px 10px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.copyright {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    color: #50b484;
+}
+
+.copyright svg{
+    width: 15px;
+}
+
+@media(max-width: 520px){
+    .links {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,28 @@
+.banner {
+    position: relative;
+
+    overflow: hidden;
+}
+
+.banner h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -220%);
+    z-index: 1;
+
+    color: #50b484;
+    background-color: rgba(22, 22, 22, 0.5);
+}
+
+@media(max-width: 850px){
+    .banner h1{
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 470px){
+    .banner h1{
+        font-size: 25px;
+    }
+}

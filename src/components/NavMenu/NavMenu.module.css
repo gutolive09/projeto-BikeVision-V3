@@ -1,0 +1,35 @@
+.menu{
+    width: 30%;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu ul a {
+    text-decoration: none;
+}
+
+.item {
+    font-size: 35px;
+    color: #50b484;
+}
+
+
+@media(max-width: 1100px){
+    .menu{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .item {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 450px){
+    .item {
+        font-size: 25px;
+    }
+}
