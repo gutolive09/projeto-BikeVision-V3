@@ -27,8 +27,22 @@ export default function CadastroBike(props) {
                 },
                 body:  JSON.stringify(bike)
             })
+
+            if(response.ok){
+                const data = response.json()
+                if(data.status){
+                    alert("Cadastro feito com sucesso!")
+                    
+                    setTimeout(() => {
+                        props.setCadastro(true)
+                    }, 2500);
+                }else{
+                    alert("Erro ao efetuar cadastro!")
+                }
+                
+            }
         } catch (error) {
-            
+            console.log(error)
         }
 
     }
@@ -56,6 +70,5 @@ export default function CadastroBike(props) {
                 <button>Cadastrar</button>
             </fieldset>
         </form>
-        // onClick={() => props.setCadastro(true)}
   )
 }
