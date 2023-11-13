@@ -12,7 +12,7 @@ function ControlledCarousel() {
   return (
     <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
-        <img src="/img/bike_banner_2.jpg" alt="" />
+        <img src="/img/bike_banner_2.jpg" alt="Imagem 1 do Carrosel" />
         <Carousel.Caption>
           <h3>Eficiência</h3>
           <p>
@@ -21,7 +21,7 @@ function ControlledCarousel() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img src="/img/bike_banner_3.jpg" alt="" />
+        <img src="/img/bike_banner_3.jpg" alt="Imagem 2 do Carrosel" />
         <Carousel.Caption>
           <h3>Rápido e Prático</h3>
           <p>
